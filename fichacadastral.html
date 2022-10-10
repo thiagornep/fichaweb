@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!--METADADOS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--TITULO DA PAGINA | ABA-->
+    <title>Ficha Cadastral</title>
+
+    <!--LINK DE CONEXÃO CSS-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--CABEÇALHO DO FORMULARIO-->
+    <div>
+        <h1>FICHA CADASTRAL - ATX </h1>
+        <p>DADOS DE CADASTRO DE CLIENTES</p>
+    </div>
+
+    <!--FORMULARIO-->
+    <form>
+        <fieldset class="grupo">
+            <!--DIV DE COLETA DE DADOS-->
+            <div>
+                <label>Razão Social</label>
+                <input type="text" name="empresa" id="empresa">
+                <label>Nome Fantasia</label>
+                <input type="text" name="fantasia" id="fantasia">
+                <label>CNPJ</label>
+                <input type="number" name="cnpj" id="cnpj"> <br> <!--QUEBRA LINHA-->
+
+                <label>Inscrição Estadual</label>
+                <input type="number" name="ie" id="ie">
+                <labe>Inscrição Municipal</labe>
+                <input type="number" name="im" id="im">
+                <label>CNAE Fiscal</label>
+                <input type="number" name="cnae" id="cnae"> <br> <!--QUEBRA LINHA-->
+                
+                <label>Regime Tributário:</label>
+                <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
+                <input type="radio" name="regime" value="LucroReal"> Lucro Real
+                <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido <br> <!--QUEBRA LINHA-->
+
+                <label>Suframa</label>
+                <input type="number" name="suframa" id="suframa">
+                <label>Responsável:</label>
+                <input type="text" name="responsavel" id="responsavel">
+                <label>CPF:</label>
+                <input type="number" name="cpf" id="cpf">
+                <label>RG:</label>
+                <input type="number" id="rg">
+
+            </div>  
+        </fieldset>
+        <fieldset>
+                <label>Contatos:</label>
+                <label>Nome:</label>
+        </fieldset>
+
+
+
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+/*Corpo Total*/
+body{
+    width: 600px;
+    height: 355px;
+    margin: auto;
+    background-color: rgb(166, 184, 218);
+    }
+/*Seletor de Div*/
+div{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }    
+/*Seletor de Paragrafo*/
+p{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: monospace
+}
+/*Seletor Texto Principal*/
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Seletor Do Formulario*/
+fieldset{
+    border: 0px;
+}
+/*Seletor dos campos INPUT,RADIO e Informações Adicionais*/
+input{
+    border-radius: 5px;
+}
