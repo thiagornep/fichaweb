@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
     <!--METADADOS-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--TITULO DA PAGINA | ABA-->
     <title>Ficha Cadastral</title>
 
@@ -14,58 +15,130 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
-    <!--CABEÇALHO DO FORMULARIO-->
-    <div>
-        <h1>FICHA CADASTRAL - ATX </h1>
-        <p>DADOS DE CADASTRO DE CLIENTES</p>
+    <div class="container">
+        <div class="form-img">
+            <img width="200px"  style="border:1px solid red;" src="./img/undraw_sharing_knowledge_03vp.svg" alt="ATX FICHA">
+        </div>
+
+        <div class="form">
+            <div class="title-form">
+                <h1>FICHA CADASTRAL - ATX </h1>
+                <p>DADOS DE CADASTRO DE CLIENTES</p>
+            </div>
+
+            <form action="#">
+                <div class="input-group">
+                        <div class="input-data">
+                            <label>DADOS DA EMPRESA</label> <br>
+                            <label>Razão Social</label>
+                            <input type="text" name="empresa" id="empresa" placeholder="Digite a razão social da empresa">
+                            <label>Nome Fantasia</label>
+                            <input type="text" name="fantasia" id="fantasia" placeholder="Nome de fantasia da empresa">
+                            <label>CNPJ</label>
+                            <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ da empresa"> <br>
+                                <!--QUEBRA LINHA-->
+                            <label>Inscrição Estadual</label>
+                            <input type="number" name="ie" id="ie" placeholder="Número da Inscriçao Estadual">
+                            <labe>Inscrição Municipal</labe>
+                            <input type="number" name="im" id="im" placeholder="Número da Inscriçao Municipal">
+                            <label>CNAE Fiscal</label>
+                            <input type="number" name="cnae" id="cnae" placeholder="Número do CNAE"> <br>
+                            <!--QUEBRA LINHA-->
+                            <label>Suframa</label>
+                            <input type="number" name="suframa" id="suframa">
+                            <label>Responsável:</label>
+                            <input type="text" name="responsavel" id="responsavel">
+                            <label>CPF:</label>
+                            <input type="number" name="cpf" id="cpf">
+                            <label>RG:</label>
+                            <input type="number" id="rg">
+                        
+                        </div>
+                        
+                        <div class="input-radio""></div>
+                        <label>Regime Tributário:</label>
+                        <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
+                        <input type="radio" name="regime" value="LucroReal"> Lucro Real
+                        <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido <br>
+                        <!--QUEBRA LINHA-->
+
+                        
+                    
+                </div>
+                <div class="input-contact">
+                    <topico>CONTATOS</topico> <br>
+
+                    <label>Nome:</label>
+                    <input type="text" name="nomeresponsavel" id="">
+                    <label>Email:</label>
+                    <input type="email" name="emailresponsavel" id="">
+                    <label>Telefone:</label>
+                    <input type="tel" name="telefone" id="">
+                    <label>Celular:</label>
+                    <input type="tel" name="celular" id="">
+                    <topico>ENDEREÇO</topico> <br>
+
+                    <label>Rua:</label>
+                    <input type="text" name="rua" id="">
+                    <label>Número:</label>
+                    <input type="text" name="numeroend" id="">
+                    <label>CEP:</label>
+                    <input type="text" name="CEP" id="">
+                    <label>Complemento:</label>
+                    <input type="text" name="complemento" id="">
+                    <label>Bairro:</label>
+                    <input type="text" name="bairro" id="">
+                    <label>Municipio:</label>
+                    <input type="text" name="complemento" id="">
+
+
+                </div>
+                
+                <div class="input-contract">
+                    <topico>INFORMAÇÕES DO CONTRATO </topico> <br>
+
+                    <label>Numero de Contrato:</label>
+                    <input type="text" name="rua" id=""> <br>
+                    <label>Módulo:</label>
+                    <input type="radio" name="numeroend" id=""> NFC-E
+                    <input type="radio" name="numeroend" id=""> NF-E <br>
+
+                    <label>Tipo de Rede:</label>
+                    <input type="radio" name="numeroend" id=""> WEB
+                    <input type="radio" name="numeroend" id=""> LOCAL <br>
+
+                    <label>Número de Licenças:</label>
+                    <input type="number" name="qtlicenca" id=""> <br>
+
+                    <label>Número de Acessos:</label>
+                    <input type="number" name="qtacessos" id=""> <br>
+                    <label>Valor da Implantação:</label>
+                    <input type="text" name="valordaimplantacao"> <br>
+                    <label>Manutenção:</label>
+                    <input type="text" name="Manutenção">
+
+                </div>
+
+
+
+            </form>
+            <div class="button">
+                <button><a href="#">Gerar Cadastro</a></button>
+            </div>
+
+
     </div>
 
-    <!--FORMULARIO-->
-    <form>
-        <fieldset class="grupo">
-            <!--DIV DE COLETA DE DADOS-->
-            <div>
-                <label>Razão Social</label>
-                <input type="text" name="empresa" id="empresa">
-                <label>Nome Fantasia</label>
-                <input type="text" name="fantasia" id="fantasia">
-                <label>CNPJ</label>
-                <input type="number" name="cnpj" id="cnpj"> <br> <!--QUEBRA LINHA-->
-
-                <label>Inscrição Estadual</label>
-                <input type="number" name="ie" id="ie">
-                <labe>Inscrição Municipal</labe>
-                <input type="number" name="im" id="im">
-                <label>CNAE Fiscal</label>
-                <input type="number" name="cnae" id="cnae"> <br> <!--QUEBRA LINHA-->
-                
-                <label>Regime Tributário:</label>
-                <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
-                <input type="radio" name="regime" value="LucroReal"> Lucro Real
-                <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido <br> <!--QUEBRA LINHA-->
-
-                <label>Suframa</label>
-                <input type="number" name="suframa" id="suframa">
-                <label>Responsável:</label>
-                <input type="text" name="responsavel" id="responsavel">
-                <label>CPF:</label>
-                <input type="number" name="cpf" id="cpf">
-                <label>RG:</label>
-                <input type="number" id="rg">
-
-            </div>  
-        </fieldset>
-        <fieldset>
-                <label>Contatos:</label>
-                <label>Nome:</label>
-        </fieldset>
 
 
 
-    </form>
+    </div> <!--fim-da-div-container-->
+
 
 
 </body>
+
 </html>

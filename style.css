@@ -1,31 +1,39 @@
-/*Corpo Total*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+/*ESCOPO GLOBAL*/
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+
+}
+/*Corpo body*/
 body{
-    width: 600px;
-    height: 355px;
-    margin: auto;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     background-color: rgb(166, 184, 218);
     }
-/*Seletor de Div*/
-div{
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }    
-/*Seletor de Paragrafo*/
-p{
-    text-align: center;
-    font-size: 1.5em;
-    font-family: monospace
+
+/*Bloco do Formulario*/
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(14, 13, 13);
+        }
+
+.form-img{
+    width: 40%;
+    display: flex
+    justify-content: center
+    align-items: Center;
+    background-color: ; 
+    padding: 4rem;
+
 }
-/*Seletor Texto Principal*/
-h1{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-/*Seletor Do Formulario*/
-fieldset{
-    border: 0px;
-}
-/*Seletor dos campos INPUT,RADIO e Informações Adicionais*/
-input{
-    border-radius: 5px;
-}
+
+
