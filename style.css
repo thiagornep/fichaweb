@@ -71,3 +71,13 @@ body{
     font-size: 15px;
         
 }
+
+.button button{
+    border:none;
+    background-color: rgb(166, 184, 218);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
