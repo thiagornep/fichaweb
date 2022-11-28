@@ -4,8 +4,9 @@
 *{ 
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     font-family: Montserrat, sans-serif;
+    font-size: 11px;
 
 }
 /*Corpo body*/
@@ -26,14 +27,47 @@ body{
     box-shadow: 5px 5px 10px rgb(14, 13, 13);
         }
 
+        /*Classe da IMAGEM DA ESQUERDA*/
 .form-img{
-    width: 40%;
-    display: flex
-    justify-content: center
+    width: 20%;
+    display: flex;
+    justify-content: center;
     align-items: Center;
-    background-color: ; 
+    background-color: #5f7ee6d7 ; 
     padding: 4rem;
 
 }
+/*IMAGEM DA ESQUERDA*/
+.form-img img{
+    width: 250px;
+}
 
+.form {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem;
+}
 
+.title-form > h1{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    
+}
+
+.title-form > p{
+    font-size: 10px;
+    display: block;
+    text-align:center;
+}
+
+.categoria{
+    font-weight: bold;
+    font-size: 15px;
+        
+}
