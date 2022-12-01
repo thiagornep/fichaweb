@@ -31,45 +31,51 @@
 
             <form action="#">
                 <div class="input-group">
-                        <div class="input-data">
-                            <label class="categoria">DADOS DA EMPRESA</label> <br>
-                            <label>Razão Social</label>
+                        <div class="input-data"> <!-- #1 CLASSE CONTEINER DE DADOS DA EMPRESA #1-->
+
+                            <h1 class="categoria">#1 DADOS DA EMPRESA</h1> <br>
+                            <label class="input-box">Razão Social</label>
                             <input type="text" name="empresa" id="empresa" placeholder="Digite a razão social da empresa">
-                            <label>Nome Fantasia</label>
+                            <label class="input-box">Nome Fantasia</label>
                             <input type="text" name="fantasia" id="fantasia" placeholder="Nome de fantasia da empresa">
-                            <label>CNPJ</label>
-                            <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ da empresa"> <br>
-                                <!--QUEBRA LINHA-->
-                            <label>Inscrição Estadual</label>
-                            <input type="number" name="ie" id="ie" placeholder="Número da Inscriçao Estadual">
-                            <labe>Inscrição Municipal</labe>
-                            <input type="number" name="im" id="im" placeholder="Número da Inscriçao Municipal">
-                            <label>CNAE Fiscal</label>
-                            <input type="number" name="cnae" id="cnae" placeholder="Número do CNAE"> <br>
-                            <!--QUEBRA LINHA-->
-                            <label>Suframa</label>
-                            <input type="number" name="suframa" id="suframa">
-                            <label>Responsável:</label>
-                            <input type="text" name="responsavel" id="responsavel">
-                            <label>CPF:</label>
+                            <label class="input-box">CNPJ</label>
+                            <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ da empresa"> 
+                            <label class="input-box">Inscrição Estadual</label>
+                            <input type="number" name="ie" id="ie" placeholder="Inscriçao Estadual">
+                            <label class="input-box">Inscrição Municipal</labe>
+                            <input type="number" name="im" id="im" placeholder="Inscriçao Municipal">
+                            <label class="input-box">CNAE Fiscal</label>
+                            <input type="number" name="cnae" id="cnae" placeholder="CNAE"> 
+                            <label class="input-box">Suframa</label>
+                            <input type="number" name="suframa" id="Suframa">
+                            <label class="input-box">Responsável:</label>
+                            <input type="text" name="responsavel" id="Responsavel">
+                            <label class="input-box">CPF:</label>
                             <input type="number" name="cpf" id="cpf">
-                            <label>RG:</label>
+                            <label class="input-box">RG:</label>
                             <input type="number" id="rg">
                         
                         </div>
                         
-                        <div class="input-radio""></div>
-                        <label>Regime Tributário:</label>
+                        <div class="input-radio">
+                        <!--#2 CLASSE CONTEINER DE REGIME TRIBUTARIO #2-->
+                        <label>#2 Regime Tributário:</label>
                         <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
                         <input type="radio" name="regime" value="LucroReal"> Lucro Real
-                        <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido <br>
-                        <!--QUEBRA LINHA-->
+                        <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido
+                        
+                        </div> 
+
+                         
+                        
 
                         
                     
                 </div>
-                <div class="input-contact">
-                    <topico>CONTATOS</topico> <br>
+
+                <div class="input-contact"><!--#3 CLASSE CONTEINER DE CONTATOS #3 -->
+
+                    <topico class="categoria">#3 CONTATOS</topico> <br>
 
                     <label>Nome:</label>
                     <input type="text" name="nomeresponsavel" id="">
@@ -97,8 +103,8 @@
 
                 </div>
                 
-                <div class="input-contract">
-                    <topico class="categoria">INFORMAÇÕES DO CONTRATO </topico> <br>
+                <div class="input-contract"> <!-- #4 CLASSE CONTEINER DE REGIME TRIBUTARIO #4-->
+                    <topico class="categoria"> #4 INFORMAÇÕES DO CONTRATO </topico> <br>
 
                     <label>Numero de Contrato:</label>
                     <input type="text" name="rua" id=""> <br>

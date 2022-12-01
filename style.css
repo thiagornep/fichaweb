@@ -21,8 +21,8 @@ body{
 
 /*Bloco do Formulario*/
 .container{
-    width: 80%;
-    height: 80vh;
+    width: 90%;
+    height: 90vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(14, 13, 13);
         }
@@ -50,7 +50,7 @@ body{
     flex-direction: column;
     background-color: white;
     padding: 3rem;
-}
+    }
 
 .title-form > h1{
     font-size: 25px;
@@ -67,17 +67,59 @@ body{
 }
 
 .categoria{
+    display: block;
     font-weight: bold;
     font-size: 15px;
+    background-color: 
+    padding-top: 1rem;
         
 }
 
-.button button{
+.button button, a{
     border:none;
     background-color: rgb(166, 184, 218);
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 
 
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    
+}
+
+.input-data {
+    display: grid;
+}
+
+
+
+
+.input-data label{
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: column;
+      
+}
+
+.input-data input{
+    margin: 0.2rem;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000000d7;
+    margin-right: 3rem;
+}
+
+.input-radio {
+    display: inline-block;
+    margin-inline: 150px;
+    padding: 1.2rem;
+    
+    background-color: rgb(166, 184, 218);
 }
