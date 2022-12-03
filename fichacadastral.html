@@ -17,153 +17,171 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="form-img">
             <img src="./img/undraw_sharing_knowledge_03vp.svg" alt="ATX FICHA">
         </div>
 
-        <div class="form">
+        <div class="head">
             <div class="title-form">
-                <h1 class="title-form">FICHA CADASTRAL - ATX </h1>
-                <p>DADOS DE CADASTRO DE CLIENTES</p>
-            </div>
+            <h1 class="title-form">FICHA CADASTRAL - ATX </h1>
+            <p>DADOS DE CADASTRO DE CLIENTES</p>
+        </div>
 
-            <form action="#">
-                <div class="input-geral">
-                    <!-- #1 CLASSE CONTEINER DE DADOS DA EMPRESA #1-->
-                    <topico class="categoria">#1 DADOS DA EMPRESA</topico>
-                        
-                        <div class="input-group">
-                            <div class="input-box"> 
-                            <label>Razão Social</label>
-                            <input type="text" name="empresa" id="empresa" placeholder="Digite a razão social da empresa">
-                        </div>
-                        <div class="input-box">
-                            <label>Nome Fantasia</label>
-                            <input type="text" name="fantasia" id="fantasia" placeholder="Nome de fantasia da empresa">
-                        </div>
-                        <div class="input-box">
-                            <label>CNPJ</label>
-                            <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ da empresa">
-                        </div>
-                        <div class="input-box">
-                            <label>Inscrição Estadual</label>
-                            <input type="number" name="ie" id="ie" placeholder="Inscriçao Estadual">
-                        </div>
-                        <div class="input-box">
-                            <label>Inscrição Municipal</labe>
-                            <input type="number" name="im" id="im" placeholder="Inscriçao Municipal">
-                        </div>
-                        <div class="input-box">
-                            <label>CNAE Fiscal</label>
-                            <input type="number" name="cnae" id="cnae" placeholder="CNAE">
-                        </div>
-                        <div class="input-box">
-                            <label>Suframa</label>
-                            <input type="number" name="suframa" id="Suframa">
-                        </div>
-                        <div class="input-box">
-                            <label>Responsável:</label>
-                            <input type="text" name="responsavel" id="Responsavel">
-                        </div>
-                        <div class="input-box">
-                            <label>CPF:</label>
-                            <input type="number" name="cpf" id="cpf">
-                        </div>
-                        <div class="input-box">
-                            <label>RG:</label>
-                            <input type="number" id="rg">
-                        </div>
-                                                            
+        <form action="#">
+            <div class="input-geral">
+                <!-- #1 CLASSE CONTEINER DE DADOS DA EMPRESA #1-->
+                <topico class="categoria">DADOS DA EMPRESA</topico>
+                    
+                <div class="input-group">
+
+                    <div class="input-box"> 
+                        <label>Razão Social</label>
+                        <input type="text" name="empresa" id="empresa" placeholder="Razão Social">
                     </div>
-                    <!--#2 CLASSE CONTEINER DE REGIME TRIBUTARIO #2-->
-                    <div class="input-radio">
-                        
-                        <label>#2 Regime Tributário:</label>
-                        <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
-                        <input type="radio" name="regime" value="LucroReal"> Lucro Real
-                        <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido    
+                    <div class="input-box">
+                        <label>Nome Fantasia</label>
+                        <input type="text" name="fantasia" id="fantasia" placeholder="Nome Fantasia">
                     </div>
-                    <!--#3 CLASSE CONTEINER DE CONTATOS #3 -->    
-                    <div class="input-contact">
+                    <div class="input-box">
+                        <label>CNPJ</label>
+                        <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ da empresa">
+                    </div>
+                    <div class="input-box">
+                        <label>Inscrição Estadual</label>
+                        <input type="number" name="ie" id="ie" placeholder="Inscriçao Estadual">
+                    </div>
+                    <div class="input-box">
+                        <label>Inscrição Municipal</label>
+                        <input type="number" name="im" id="im" placeholder="Inscriçao Municipal">
+                    </div>
+                    <div class="input-box">
+                        <label>CNAE Fiscal</label>
+                        <input type="number" name="cnae" id="cnae" placeholder="CNAE">
+                    </div>
+                    <div class="input-box">
+                        <label>Suframa</label>
+                        <input type="number" name="suframa" id="Suframa">
+                    </div>
+                    <div class="input-box">
+                        <label>Responsável:</label>
+                        <input type="text" name="responsavel" id="Responsavel">
+                    </div>
+                    <div class="input-box">
+                        <label>CPF:</label>
+                        <input type="number" name="cpf" id="cpf">
+                    </div>
+                    <div class="input-box">
+                        <label>RG:</label>
+                        <input type="number" id="rg">
+                    </div>
+                                                        
+                </div>
+                <!--#2 CLASSE CONTEINER DE REGIME TRIBUTARIO #2-->
+                <div class="input-radio">
+                    
+                    <label>Regime Tributário:</label>
+                    <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
+                    <input type="radio" name="regime" value="LucroReal"> Lucro Real
+                    <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido    
+                </div>
+                <!--#3 CLASSE CONTEINER DE CONTATOS #3 -->    
 
-                        <topico class="categoria">#3 CONTATOS</topico> <br>
-                        
-                        <div class="input-contact-box">
-                            <label>Nome:</label>
-                            <input type="text" name="nomeresponsavel" id="">
-                        </div>
-                        <div class="input-contact-box">
-                            <label>Email:</label>
-                            <input type="email" name="emailresponsavel" id="">
-                        </div>
-                        <div class="input-contact-box">
-                            <label>Telefone:</label>
-                            <input type="tel" name="telefone" id="">
-                        </div>
-                        <div class="input-contact-box">
-                            <label>Celular:</label>
-                            <input type="tel" name="celular" id="">
-                        </div>
-                        <topico>ENDEREÇO</topico> <br>
+                <div class="categoria">CONTATOS</div>
+                <div class="input-contact">
 
+                    <div class="input-contact-box">
+                        <label>Nome:</label>
+                        <input type="text" name="nomeresponsavel" id="">
+                    </div>
+                    <div class="input-contact-box">
+                        <label>Email:</label>
+                        <input type="email" name="emailresponsavel" id="">
+                    </div>
+                    <div class="input-contact-box">
+                        <label>Telefone:</label>
+                        <input type="tel" name="telefone" id="">
+                    </div>
+                    <div class="input-contact-box">
+                        <label>Celular:</label>
+                        <input type="tel" name="celular" id="">
+                    </div>
+                </div>
+
+                <div class="categoria">ENDEREÇO</div>
+
+                    <div class="input-adress">
                         <div class="input-contact-box">
                             <label>Rua:</label>
                             <input type="text" name="rua" id="">
-                        </div>
+                    </div>
                         <div class="input-contact-box">
                             <label>Número:</label>
                             <input type="text" name="numeroend" id="">
-                        </div>
+                    </div>
                         <div class="input-contact-box">
                             <label>CEP:</label>
                             <input type="text" name="CEP" id="">
-                        </div>
+                    </div>
                         <div class="input-contact-box">
                             <label>Complemento:</label>
                             <input type="text" name="complemento" id="">
-                        </div>
+                    </div>
                         <div class="input-contact-box">
                             <label>Bairro:</label>
                             <input type="text" name="bairro" id="">
-                        </div>
+                    </div>
                         <div class="input-contact-box">
                             <label>Municipio:</label>
                             <input type="text" name="complemento" id="">
-                        </div>
-
-
                     </div>
+                    </div>
+
+
                 
-                    <div class="input-contract"> <!-- #4 CLASSE CONTEINER INFORMAÇÃO DO CONTRATO #4-->
-                        <topico class="categoria"> #4 INFORMAÇÕES DO CONTRATO </topico> <br>
+            
+                <div class="input-contract"> <!-- #4 CLASSE CONTEINER INFORMAÇÃO DO CONTRATO #4-->
+                    <topico class="categoria">INFORMAÇÕES DO CONTRATO </topico> 
 
+                    <div class="input-contract-box">
                         <label>Numero de Contrato:</label>
-                        <input type="text" name="rua" id=""> <br>
-                        <label>Módulo:</label>
-                        <input type="radio" name="numeroend" id=""> NFC-E
-                        <input type="radio" name="numeroend" id=""> NF-E <br>
-
-                        <label>Tipo de Rede:</label>
-                        <input type="radio" name="numeroend" id=""> WEB
-                        <input type="radio" name="numeroend" id=""> LOCAL <br>
-
+                        <input type="text" name="rua" id="">
+                    </div>
+                    
+                    <div class="input-contract-box">
                         <label>Número de Licenças:</label>
-                        <input type="number" name="qtlicenca" id=""> <br>
-
-                        <label>Número de Acessos:</label>
-                        <input type="number" name="qtacessos" id=""> <br>
-                        <label>Valor da Implantação:</label>
-                        <input type="text" name="valordaimplantacao"> <br>
-                        <label>Manutenção:</label>
-                        <input type="text" name="Manutenção">
-
+                        <input type="number" name="qtlicenca" id="">
                     </div>
 
+                    <div class="input-contract-box">
+                        <div>Número de Acessos:</div>
+                        <input type="number" name="qtacessos" id="">
+                    </div>
+                    <div class="input-contract-box">
+                        <div>Valor da Implantação:</div>
+                        <input type="text" name="valordaimplantacao">
+                    </div>
+                    <div class="input-contract-box">
+                        <div>Manutenção:</div>
+                        <input type="text" name="Manutenção">
+                    </div>
+                    <div class="input-contract-box-radio">
+                        <div>Módulo:</div>
+                        <input type="radio" name="numeroend" id=""> NFC-E
+                        <input type="radio" name="numeroend" id=""> NF-E
+                    </div>
+
+                    <div class="input-contract-box-radio">
+                        <div>Tipo de Rede:</div>
+                        <input type="radio" name="numeroend" id=""> WEB
+                        <input type="radio" name="numeroend" id=""> LOCAL
+                    </div>
+
+                </div>
 
 
-            </form>
+
+        </form>
             <div class="button">
                 <button><a href="#">Gerar Cadastro</a></button>
             </div>
