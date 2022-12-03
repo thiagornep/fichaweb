@@ -56,10 +56,7 @@ body{
     font-size: 25px;
     display: dis;
     justify-content: center;
-    background-color: blue;
-    
-    
-}
+    }
 
 .title-form > p{
     font-size: 10px;
@@ -118,11 +115,23 @@ body{
 }
 
 .input-radio {
-    display: inline-block;
+    display: flex;
+    width: 600px;
     margin-inline: 150px;
-    padding: 1.2rem;
+    padding: 1rem;
+    background-color: rgb(166, 218, 182);
+}
+
+.input-radio > div{
+    display: inline-flex;
+    margin-right: 5px;
+    background-color: aqua;
+    justify-content: space-between
+}
+
+.input-radio > div > input{
+    background-color: rgb(250, 4, 4);
     
-    background-color: rgb(166, 184, 218);
 }
 
 .input-contact{
@@ -150,39 +159,38 @@ body{
     display: grid;
     grid-template-columns: 220px 220px 220px;
     justify-content: space-between;
-    background-color: rgb(175, 163, 163);
     padding: 1 rem 0;
 
+}
+
+.input-contract{
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px 125px;
+    justify-content: space-around;
+    padding: 1 rem 0;
 }
 
 .input-contract-box{
-    display: grid;
-    
-    
-    background-color: rgb(175, 163, 163);
-    padding: 1 rem 0;
-}
-
-.input-contract-box-radio{
     display: flex;
-    justify-content: center; 
-    
-    background-color: rgb(175, 163, 163);
-    
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    }
+
+.input-modulo{
+    display: flex;
+    width: 200px;
+    margin-inline: 150px;
+    padding: 1rem;
+    background-color: rgb(166, 218, 182);
 }
 
-.input-contract-box-radio > div{
-    display: block;
-    margin-right: 8px;
-    
-    background-color: rgb(255, 8, 8);
-    
+.input-modulo-box{
+    background-color: blue;
 }
 
-.input-contract-box-radio > input{
-    display: block;
-    justify-content: end;
-    
-    background-color: rgb(0, 0, 0);
-    
+.input-modulo > .moduloname{
+    display: inline-flex;
+    margin-right: 5px;
+    background-color: rgb(255, 38, 0);
+    justify-content: space-between
 }

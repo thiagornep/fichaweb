@@ -64,10 +64,6 @@
                         <input type="number" name="suframa" id="Suframa">
                     </div>
                     <div class="input-box">
-                        <label>Responsável:</label>
-                        <input type="text" name="responsavel" id="Responsavel">
-                    </div>
-                    <div class="input-box">
                         <label>CPF:</label>
                         <input type="number" name="cpf" id="cpf">
                     </div>
@@ -81,9 +77,15 @@
                 <div class="input-radio">
                     
                     <label>Regime Tributário:</label>
-                    <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
-                    <input type="radio" name="regime" value="LucroReal"> Lucro Real
-                    <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido    
+                    <div>
+                        <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
+                    </div>
+                    <div>
+                        <input type="radio" name="regime" value="LucroReal"> Lucro Real
+                    </div>
+                    <div>
+                        <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido
+                    </div>    
                 </div>
                 <!--#3 CLASSE CONTEINER DE CONTATOS #3 -->    
 
@@ -107,6 +109,21 @@
                         <input type="tel" name="celular" id="">
                     </div>
                 </div>
+
+                <div class="input-modulo">
+                    <div class="input-modulo-box">Módulo:</div>
+                    <input type="radio" name="numeroend" id=""> 
+                    <div class="moduloname">NFC-E</div>
+                    <input type="radio" name="numeroend" id=""> 
+                    <div class="moduloname">NF-E</div>
+                </div>
+
+                <div class="input-modulo">
+                    <div class="input-modulo-box">Tipo de Rede:</div>
+                    <input type="radio" name="numeroend" id=""> <div class="moduloname">WEB</div>
+                    <input type="radio" name="numeroend" id=""> <div class="moduloname">LOCAL</div>
+                </div>
+
 
                 <div class="categoria">ENDEREÇO</div>
 
@@ -139,9 +156,9 @@
 
 
                 
-            
+                <topico class="categoria">INFORMAÇÕES DO CONTRATO </topico>    
                 <div class="input-contract"> <!-- #4 CLASSE CONTEINER INFORMAÇÃO DO CONTRATO #4-->
-                    <topico class="categoria">INFORMAÇÕES DO CONTRATO </topico> 
+                     
 
                     <div class="input-contract-box">
                         <label>Numero de Contrato:</label>
@@ -165,21 +182,10 @@
                         <div>Manutenção:</div>
                         <input type="text" name="Manutenção">
                     </div>
-                    <div class="input-contract-box-radio">
-                        <div>Módulo:</div>
-                        <input type="radio" name="numeroend" id=""> NFC-E
-                        <input type="radio" name="numeroend" id=""> NF-E
-                    </div>
-
-                    <div class="input-contract-box-radio">
-                        <div>Tipo de Rede:</div>
-                        <input type="radio" name="numeroend" id=""> WEB
-                        <input type="radio" name="numeroend" id=""> LOCAL
-                    </div>
+                    
 
                 </div>
-
-
+                
 
         </form>
             <div class="button">
