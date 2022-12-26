@@ -9,6 +9,15 @@
     font-size: 11px;
 
 }
+
+:root{
+    --cor01: #654665;
+    --cor02: #654665;
+    --cor03: #654665;
+    --cor04: #654665;
+    
+}
+
 /*Corpo body*/
 body{
     width: 100%;
