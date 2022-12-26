@@ -11,7 +11,7 @@
 }
 
 :root{
-    --cor01: #654665;
+    --cor01: #5f7ee6d7;
     --cor02: #654665;
     --cor03: #654665;
     --cor04: #654665;
@@ -125,20 +125,33 @@ body{
 
 .input-radio {
     display: flex;
-    width: 600px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
-    padding: 1rem;
-    background-color: rgb(166, 218, 182);
+    padding: 0.5rem;
+    background-color: #5f7ee6d7 ;
+    }
+.input-radio h1{
+    display: inline;
+    margin-right: 35px;
 }
 
 .input-radio > div{
-    display: inline-flex;
-    margin-right: 5px;
-    background-color: rgb(253, 236, 0);
-    justify-content: space-between
+    margin-right: 150px;
+    width: auto;
 }
+
+.input-radio-content  input {
+        margin-right: 1rem;
+        margin-left: 1rem;
+}
+
+.input-radio-content{
+    display: flex;
+    margin-right: 10px;
+    justify-content:space-around;
+}    
+
 
 .input-contact{
     display: grid;

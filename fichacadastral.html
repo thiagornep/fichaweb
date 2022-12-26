@@ -36,20 +36,20 @@
                 <div class="input-group">
 
                     <div class="input-box"> 
-                        <label>Razão Social</label>
-                        <input type="text" name="empresa" id="empresa" placeholder="Razão Social">
+                        <label for="razaosocial">Razão Social</label>
+                        <input type="text" name="razaosocial" id="razaosocial" placeholder="Razão Social">
                     </div>
                     <div class="input-box">
-                        <label>Nome Fantasia</label>
+                        <label for="fantasia">Nome Fantasia</label>
                         <input type="text" name="fantasia" id="fantasia" placeholder="Nome Fantasia">
                     </div>
                     <div class="input-box">
-                        <label>CNPJ</label>
-                        <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ da empresa">
+                        <label for="cnpj">CNPJ</label>
+                        <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ">
                     </div>
                     <div class="input-box">
-                        <label>Inscrição Estadual</label>
-                        <input type="number" name="ie" id="ie" placeholder="Inscriçao Estadual">
+                        <label for="inscricaoestadual">Inscrição Estadual</label>
+                        <input type="number" name="inscricaoestadual" id="inscricaoestadual" placeholder="Inscriçao Estadual">
                     </div>
                     <div class="input-box">
                         <label>Inscrição Municipal</label>
@@ -61,29 +61,31 @@
                     </div>
                     <div class="input-box">
                         <label>Suframa</label>
-                        <input type="number" name="suframa" id="Suframa">
+                        <input type="number" name="suframa" id="Suframa" placeholder="Suframa">
                     </div>
                     <div class="input-box">
                         <label>CPF:</label>
-                        <input type="number" name="cpf" id="cpf">
+                        <input type="number" name="cpf" id="cpf" placeholder="CPF">
                     </div>
                     <div class="input-box">
                         <label>RG:</label>
-                        <input type="number" id="rg">
+                        <input type="number" id="rg" placeholder="RG">
                     </div>
                                                         
                 </div>
+
                 <!--#2 CLASSE CONTEINER DE REGIME TRIBUTARIO #2-->
+                
                 <div class="input-radio">
                     
-                    <label>Regime Tributário:</label>
-                    <div>
-                        <input type="radio" name="regime" value="SimplesNacional"> Simples Nacional
+                    <h1>Regime Tributário:</h1>
+                    <div class="input-radio-content">
+                        <input id=checkbox-1 type="radio" name="regime" value="SimplesNacional"> Simples Nacional
                     </div>
-                    <div>
+                    <div class="input-radio-content">
                         <input type="radio" name="regime" value="LucroReal"> Lucro Real
                     </div>
-                    <div>
+                    <div class="input-radio-content">
                         <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido
                     </div>    
                 </div>
@@ -110,16 +112,14 @@
                     </div>
                 </div>
 
-                <span class="input-modulo">
-                   
-                        <div>
-                            <h1>Módulo:</h1>
+                <span class="input-radio"">
+                        <h1>Módulo: </h1>
+                        <div class="input-radio-content">
                             <input type="radio" name="numeroend" id=""> <label for="">NFC-e</label>
                             <input type="radio" name="numeroend" id=""> <label for="">NF-e</label>
                         </div>
-
-                        <div>
-                            <h1>Tipo de Rede:</h1>
+                        <h1>Tipo de Rede:</h1>
+                        <div class="input-radio-content">
                             <input type="radio" name="numeroend" id=""> <label for="">WEB</label>
                             <input type="radio" name="numeroend" id=""> <label for="">LOCAL</label>
                         </div>
