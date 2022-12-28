@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #feffef;
+
+  padding: 2rem;
+}
+
+body main {
+  width: 100%;
+}
+
+.pdf {
+  width: 596px;
+  position: relative;
+
+  border-radius: 4px;
+  border: 1px solid #006eb9;
+
+  margin: 0 auto;
+
+  background: #ffffff;
+}
+
+.pdf header {
+  height: 180px;
+  background: url("./img/forma.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+  padding-top: 5px;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdf header img {
+  width: 180px;
+}
+
+.pdf header > span {
+  position: absolute;
+
+  top: 70px;
+  right: 50px;
+}
+
+.pdf header h3 {
+  text-transform: uppercase;
+}
+
+.pdf main h2 {
+  text-align: center;
+  color: #006eb9;
+  font-weight: bold;
+}
+
+.group {
+  margin: 0 auto;
+  max-width: 80%;
+  border-top: 3px solid #006eb9;
+}
+
+.group table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+.group table tr:first-child td {
+  width: 100px;
+  background-color: #006fb946;
+  color: #0c4b74;
+  font-weight: bold;
+
+  text-align: center;
+  vertical-align: top;
+}
+
+.group table tr:not(:first-child) td {
+  padding: 0 5px;
+  border-bottom: 1px solid rgb(164, 164, 164);
+}
+
+.group table tr:not(:first-child) td:first-child {
+  text-align: right;
+  border-right: 1px solid rgb(164, 164, 164);
+}
+
+.pdf footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pdf footer span {
+    font-size: 12px;
+}
+
+.pdf footer a {
+    font-size: 10px;
+    text-decoration: none;
+}

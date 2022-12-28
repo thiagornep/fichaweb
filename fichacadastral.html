@@ -2,18 +2,14 @@
 <html lang="pt-br">
 
 <head>
-
     <!--METADADOS-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--TITULO DA PAGINA | ABA-->
     <title>Ficha Cadastral</title>
-
     <!--LINK DE CONEXÃO CSS-->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -28,161 +24,156 @@
             <p>DADOS DE CADASTRO DE CLIENTES</p>
         </div>
 
-        <form action="#">
+    <form action="#">
             <div class="input-geral">
                 <!-- #1 CLASSE CONTEINER DE DADOS DA EMPRESA #1-->
                 <topico class="categoria">DADOS DA EMPRESA</topico>
-                    
-                <div class="input-group">
+            <div class="input-group">
+            <div class="input-box"> 
+                <label for="razaosocial">Razão Social</label>
+                <input type="text" name="razaosocial" id="razaosocial" placeholder="Razão Social">
+            </div>
+            <div class="input-box">
+                <label for="fantasia">Nome Fantasia</label>
+                <input type="text" name="fantasia" id="fantasia" placeholder="Nome Fantasia">
+            </div>
+            <div class="input-box">
+                <label for="cnpj">CNPJ</label>
+                <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ">
+            </div>
+            <div class="input-box">
+                <label for="inscricaoestadual">Inscrição Estadual</label>
+                <input type="number" name="inscricaoestadual" id="inscricaoestadual" placeholder="Inscriçao Estadual">
+            </div>
+            <div class="input-box">
+                <label for="inscricaomunicipal">Inscrição Municipal</label>
+                <input type="number" name="inscricaomunicipal" id="inscricaomunicipal" placeholder="Inscriçao Municipal">
+            </div>
+            <div class="input-box">
+                <label for="cnae">CNAE Fiscal</label>
+                <input type="number" name="cnae" id="cnae" placeholder="CNAE">
+            </div>
+            <div class="input-box">
+                <label for="suframa">Suframa</label>
+                <input type="number" name="suframa" id="suframa" placeholder="Suframa">
+            </div>
+            <div class="input-box">
+                <label for="cpf">CPF:</label>
+                <input type="number" name="cpf" id="cpf" placeholder="CPF">
+            </div>
+            <div class="input-box">
+                <label for="rg">RG:</label>
+                <input type="number" id="rg" placeholder="RG">
+            </div>
+                                                    
+            </div>
 
-                    <div class="input-box"> 
-                        <label for="razaosocial">Razão Social</label>
-                        <input type="text" name="razaosocial" id="razaosocial" placeholder="Razão Social">
-                    </div>
-                    <div class="input-box">
-                        <label for="fantasia">Nome Fantasia</label>
-                        <input type="text" name="fantasia" id="fantasia" placeholder="Nome Fantasia">
-                    </div>
-                    <div class="input-box">
-                        <label for="cnpj">CNPJ</label>
-                        <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ">
-                    </div>
-                    <div class="input-box">
-                        <label for="inscricaoestadual">Inscrição Estadual</label>
-                        <input type="number" name="inscricaoestadual" id="inscricaoestadual" placeholder="Inscriçao Estadual">
-                    </div>
-                    <div class="input-box">
-                        <label>Inscrição Municipal</label>
-                        <input type="number" name="im" id="im" placeholder="Inscriçao Municipal">
-                    </div>
-                    <div class="input-box">
-                        <label>CNAE Fiscal</label>
-                        <input type="number" name="cnae" id="cnae" placeholder="CNAE">
-                    </div>
-                    <div class="input-box">
-                        <label>Suframa</label>
-                        <input type="number" name="suframa" id="Suframa" placeholder="Suframa">
-                    </div>
-                    <div class="input-box">
-                        <label>CPF:</label>
-                        <input type="number" name="cpf" id="cpf" placeholder="CPF">
-                    </div>
-                    <div class="input-box">
-                        <label>RG:</label>
-                        <input type="number" id="rg" placeholder="RG">
-                    </div>
-                                                        
-                </div>
-
-                <!--#2 CLASSE CONTEINER DE REGIME TRIBUTARIO #2-->
+            <!--#2 CLASSE CONTEINER DE REGIME TRIBUTARIO #2-->
+            
+            <div class="input-radio">
                 
-                <div class="input-radio">
-                    
-                    <h1>Regime Tributário:</h1>
-                    <div class="input-radio-content">
-                        <input id=checkbox-1 type="radio" name="regime" value="SimplesNacional"> Simples Nacional
-                    </div>
-                    <div class="input-radio-content">
-                        <input type="radio" name="regime" value="LucroReal"> Lucro Real
-                    </div>
-                    <div class="input-radio-content">
-                        <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido
-                    </div>    
+            <h1>Regime Tributário:</h1>
+            <div class="input-radio-content">
+                <input id=checkbox-1 type="radio" name="regime" value="SimplesNacional"> Simples Nacional
+            </div>
+            <div class="input-radio-content">
+                <input type="radio" name="regime" value="LucroReal"> Lucro Real
+            </div>
+            <div class="input-radio-content">
+                <input type="radio" name="regime" value="LucroPresumido"> Lucro Presumido
+            </div>    
+            </div>
+            <!--#3 CLASSE CONTEINER DE CONTATOS #3 -->    
+
+            <div class="categoria">CONTATOS</div>
+            <div class="input-contact">
+
+                <div class="input-contact-box">
+                    <label>Nome:</label>
+                    <input type="text" name="nomeresponsavel" id="" placeholder="Nome do Responsável">
                 </div>
-                <!--#3 CLASSE CONTEINER DE CONTATOS #3 -->    
-
-                <div class="categoria">CONTATOS</div>
-                <div class="input-contact">
-
-                    <div class="input-contact-box">
-                        <label>Nome:</label>
-                        <input type="text" name="nomeresponsavel" id="">
-                    </div>
-                    <div class="input-contact-box">
-                        <label>Email:</label>
-                        <input type="email" name="emailresponsavel" id="">
-                    </div>
-                    <div class="input-contact-box">
-                        <label>Telefone:</label>
-                        <input type="tel" name="telefone" id="">
-                    </div>
-                    <div class="input-contact-box">
-                        <label>Celular:</label>
-                        <input type="tel" name="celular" id="">
-                    </div>
+                <div class="input-contact-box">
+                    <label>Email:</label>
+                    <input type="email" name="emailresponsavel" id="" placeholder="E-mail">
                 </div>
+                <div class="input-contact-box">
+                    <label>Telefone:</label>
+                    <input type="tel" name="telefone" id="" placeholder="Número de Telefone">
+                </div>
+                <div class="input-contact-box">
+                    <label>Celular:</label>
+                    <input type="tel" name="celular" id="" placeholder="Número de Celular">
+                </div>
+            </div>
 
-                <span class="input-radio"">
-                        <h1>Módulo: </h1>
-                        <div class="input-radio-content">
-                            <input type="radio" name="numeroend" id=""> <label for="">NFC-e</label>
-                            <input type="radio" name="numeroend" id=""> <label for="">NF-e</label>
-                        </div>
-                        <h1>Tipo de Rede:</h1>
-                        <div class="input-radio-content">
-                            <input type="radio" name="numeroend" id=""> <label for="">WEB</label>
-                            <input type="radio" name="numeroend" id=""> <label for="">LOCAL</label>
-                        </div>
-
-                    
-                </span>
+            <span class="input-radio">
+                    <h1>Módulo: </h1>
+                    <div class="input-radio-content">
+                        <input type="radio" name="numeroend" id=""> <label for="">NFC-e</label>
+                        <input type="radio" name="numeroend" id=""> <label for="">NF-e</label>
+                    </div>
+                    <h1>Tipo de Rede:</h1>
+                    <div class="input-radio-content">
+                        <input type="radio" name="numeroend" id=""> <label for="">WEB</label>
+                        <input type="radio" name="numeroend" id=""> <label for="">LOCAL</label>
+                    </div>
+            </span>
 
                 <div class="categoria">ENDEREÇO</div>
 
                     <div class="input-adress">
                         <div class="input-contact-box">
                             <label>Rua:</label>
-                            <input type="text" name="rua" id="">
+                            <input type="text" name="rua" id="" placeholder="Rua">
                     </div>
                         <div class="input-contact-box">
                             <label>Número:</label>
-                            <input type="text" name="numeroend" id="">
+                            <input type="text" name="numeroend" id="" placeholder="Número da Casa">
                     </div>
                         <div class="input-contact-box">
                             <label>CEP:</label>
-                            <input type="text" name="CEP" id="">
-                    </div>
+                            <input type="text" name="CEP" id="" placeholder="CEP">
+                        </div>
                         <div class="input-contact-box">
                             <label>Complemento:</label>
-                            <input type="text" name="complemento" id="">
+                            <input type="text" name="complemento" id="" placeholder="Complemento">
                     </div>
                         <div class="input-contact-box">
                             <label>Bairro:</label>
-                            <input type="text" name="bairro" id="">
+                            <input type="text" name="bairro" id="" placeholder="Nome do Bairro">
                     </div>
                         <div class="input-contact-box">
                             <label>Municipio:</label>
-                            <input type="text" name="complemento" id="">
+                            <input type="text" name="complemento" id="" placeholder="Município">
                     </div>
                     </div>
 
 
-                
+                <!-- #4 CLASSE CONTEINER INFORMAÇÃO DO CONTRATO #4-->
                 <topico class="categoria">INFORMAÇÕES DO CONTRATO </topico>    
-                <div class="input-contract"> <!-- #4 CLASSE CONTEINER INFORMAÇÃO DO CONTRATO #4-->
+                <div class="input-contract"> 
                      
-
                     <div class="input-contract-box">
                         <label>Numero de Contrato:</label>
-                        <input type="text" name="rua" id="">
+                        <input type="text" name="rua" id="" placeholder="Número do Contrato">
                     </div>
                     
                     <div class="input-contract-box">
                         <label>Número de Licenças:</label>
-                        <input type="number" name="qtlicenca" id="">
+                        <input type="number" name="qtlicenca" id="" placeholder="Quantidade de Licenças">
                     </div>
 
                     <div class="input-contract-box">
                         <div>Número de Acessos:</div>
-                        <input type="number" name="qtacessos" id="">
+                        <input type="number" name="qtacessos" id="" placeholder="Quantidade de Acessos">
                     </div>
                     <div class="input-contract-box">
                         <div>Valor da Implantação:</div>
-                        <input type="text" name="valordaimplantacao">
+                        <input type="number" name="valordaimplantacao" placeholder="Valor Fechado">
                     </div>
                     <div class="input-contract-box">
                         <div>Manutenção:</div>
-                        <input type="text" name="Manutenção">
+                        <input type="number" name="Valor Manutenção" placeholder="Valor da Manutenção">
                     </div>
                     
 
